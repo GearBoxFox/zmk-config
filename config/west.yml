@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    - name: foxxboard_module
+      url-base: https://github.com/GearBoxFox/foxxboard-zmk-module
   projects:
     - name: zmk
       remote: zmkfirmware
