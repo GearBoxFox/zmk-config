@@ -11,5 +11,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: foxxboard-zmk-module
+      remote: foxxboard_module
+      revision: main
   self:
     path: config
